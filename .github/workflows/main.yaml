@@ -12,7 +12,7 @@ jobs:
     - name: trigger Job
       uses: appleboy/gitlab-ci-action@master
       with:
-        host: "https://gitlab.com/sergio.h/ci-github"
+        url: "https://www.google.com"
         debug: true
         token: ${{ secrets.TOKEN }}
         project_id: 22288234
