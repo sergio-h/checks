@@ -13,5 +13,5 @@ jobs:
       uses: appleboy/gitlab-ci-action@master
       with:
         host: "https://gitlab.com/sergio.h/ci-github"
-        token: "f943d819a39d860c5d2c60258a6604"
+        token: ${{ secrets.TOKEN }}
         project_id: 22288234
