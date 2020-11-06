@@ -12,6 +12,6 @@ jobs:
     - name: trigger Job
       uses: appleboy/gitlab-ci-action@master
       with:
-        url: "https://gitlab.com/sergio.h/ci-github"
+        host: "https://gitlab.com/sergio.h/ci-github"
         token: "f943d819a39d860c5d2c60258a6604"
         project_id: 22288234
