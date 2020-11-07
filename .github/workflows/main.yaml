@@ -12,7 +12,6 @@ jobs:
     - name: trigger Job
       uses: appleboy/gitlab-ci-action@master
       with:
-        url: "https://www.google.com"
         debug: true
         token: ${{ secrets.TOKEN }}
         project_id: 22288234
