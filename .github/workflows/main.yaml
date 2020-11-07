@@ -13,5 +13,6 @@ jobs:
       uses: appleboy/gitlab-ci-action@master
       with:
         debug: true
+        ref: master
         token: ${{ secrets.TOKEN }}
         project_id: 22288234
