@@ -1,18 +1,13 @@
-name: trigger gitlab job
-on:
-    push:
-      branches: [ main ]
-    pull_request:
-      branches: [ main ]
-jobs:
-  build:
-    name: Build
-    runs-on: ubuntu-latest
-    steps:
-    - name: trigger Job
-      uses: appleboy/gitlab-ci-action@master
-      with:
-        debug: true
-        ref: main
-        token: ${{ secrets.TOKEN }}
-        project_id: 22288234
+# name: trigger gitlab job
+# on:
+#     push:
+#       branches: [ main ]
+#     pull_request:
+#       branches: [ main ]
+# jobs:
+#   build:
+#     name: Build
+#     runs-on: ubuntu-latest
+#     steps:
+#     - name: trigger Job
+#       run: 
