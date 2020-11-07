@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: trigger Job
-      run: curl -X POST -F token=${{ secrets.TOKEN }} -F ref="GitHub CI" https://gitlab.com/api/v4/projects/22288234/trigger/pipeline
+      run: curl -X POST -F token=${{ secrets.TOKEN }} -F ref=main https://gitlab.com/api/v4/projects/22288234/trigger/pipeline
